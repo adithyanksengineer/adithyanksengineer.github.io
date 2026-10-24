@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Adithyan KS – Mechanical Engineer | Design, Automation, Manufacturing</title>
+<meta name="description" content="Adithyan KS, mechanical engineer in the UAE. SPM and automation machine design, CNC/CAM, and chiller manufacturing engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f3f0e4;--forest:#04130d;--deep:#0a2a1d;--green:#0e8a5f;--mint:#9be8c4;--coral:#f2c14e;--ink:#0b1f16;--muted:#4e6458;
+--head:"Archivo","Arial Narrow",Arial,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;
+padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 1rem/1.65 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+.wrap{max-width:64rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:.98}
+h2{font-size:clamp(2.2rem,7vw,3.8rem);font-weight:900;font-stretch:70%;text-transform:uppercase;margin-bottom:2rem}
+h3{font-size:1.5rem;font-weight:800;font-stretch:80%}
+p{margin:0 0 1rem;max-width:62ch}
+.dark{background:var(--forest);color:#e8f3ea}
+.dark h2 span,.light h2 span{color:transparent;-webkit-text-stroke:1.5px var(--green)}
+.dark h2 span{-webkit-text-stroke-color:var(--coral)}
+section{padding:4.5rem 0}
+
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(4,19,13,.92);backdrop-filter:blur(8px);border-bottom:1px solid #14402d}
+nav .wrap{display:flex;align-items:center;gap:1.4rem;padding-top:.7rem;padding-bottom:.7rem}
+.brand{display:flex;align-items:center;gap:.55rem;font-family:var(--head);font-weight:800;text-decoration:none;margin-right:auto;color:#fff}
+.brand i{width:30px;height:30px;border-radius:8px;background:var(--green);display:grid;place-items:center;color:#fff;font-style:normal;font-size:.85rem}
+nav a.l{display:none;font-size:.85rem;font-weight:500;text-decoration:none;color:#a9c9b8}
+nav a.l:hover{color:var(--coral)}
+@media(min-width:860px){nav a.l{display:inline}}
+.cv{background:var(--coral);color:#1a1200;padding:.55rem 1rem;font-size:.78rem;font-weight:500;text-decoration:none;letter-spacing:.04em;text-transform:uppercase;transition:background .2s}
+.cv:hover{background:#fff}
+
+.hero{padding:2.5rem 0 0;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,rgba(25,195,125,.22),transparent 60%),var(--forest)}
+.stage{position:relative;display:grid;place-items:center;min-height:30rem}
+.photo{grid-area:1/1;width:min(68vw,19rem);aspect-ratio:3/4;border-radius:999px 999px 0 0;background:linear-gradient(165deg,#13986a,#063a27 70%);box-shadow:0 0 90px rgba(25,195,125,.35),inset 0 0 0 1px rgba(155,232,196,.35);overflow:hidden;align-self:end;position:relative}
+.photo svg{position:absolute;inset:0;width:100%;height:100%}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05)}
+.big{grid-area:1/1;z-index:2;text-align:center;font-size:clamp(3.4rem,17vw,10.5rem);font-weight:900;font-stretch:62%;text-transform:uppercase;letter-spacing:-.01em;pointer-events:none}
+.big small{display:block;font-size:.35em;font-stretch:75%;letter-spacing:.02em;margin-bottom:.1em}
+.big{color:#fff;text-shadow:0 4px 40px rgba(0,0,0,.45)}.big .o{color:transparent;-webkit-text-stroke:2px var(--coral);text-shadow:none}
+.intro{display:grid;gap:1.5rem;padding:2rem 0 3rem;align-items:center}
+@media(min-width:760px){.intro{grid-template-columns:1.4fr 1fr}}
+.intro p{color:#b4cdbb;font-size:1.1rem}
+.cta{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.85rem 1.4rem;font-weight:500;text-decoration:none;border:2px solid var(--forest);transition:.2s}.dark .btn{border-color:var(--mint);color:#e8f3ea}
+.btn.p,.dark .btn.p{background:var(--coral);border-color:var(--coral);color:#1a1200}
+.btn:hover,.dark .btn:hover{background:#fff;border-color:#fff;color:#04130d}
+.badge{position:absolute;left:50%;bottom:-3.2rem;transform:translateX(-50%);z-index:3;width:6.4rem;height:6.4rem;border-radius:50%;background:var(--coral)}
+.badge svg{width:100%;height:100%;animation:spin 14s linear infinite}
+.badge text{fill:#04130d;font:500 11px var(--body);letter-spacing:.18em}
+.badge b{position:absolute;inset:0;margin:auto;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--forest)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto}}
+
+.about .grid{display:grid;gap:2.5rem;align-items:center}
+@media(min-width:760px){.about .grid{grid-template-columns:1.2fr 1fr}}
+.hello{color:var(--mint);font-family:var(--head);font-weight:800;font-size:1.3rem;font-stretch:80%;margin-bottom:.4rem;opacity:.7}
+.stats{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;gap:1rem}
+.stats li{display:flex;align-items:center;gap:1rem;border-bottom:1px solid #14402d;padding-bottom:.8rem;margin:0}
+.stats i{flex:none;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--coral);position:relative}
+.stats i::after{content:"";position:absolute;left:.5rem;top:.25rem;width:.4rem;height:.75rem;border:solid #1a1200;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.stats b{font-family:var(--head);font-size:2rem;font-weight:800;font-stretch:80%;min-width:6.2rem}
+.stats span{color:#b4cdbb;font-size:.95rem}
+.gearbox{aspect-ratio:1;max-width:22rem;margin:0 auto;width:100%}
+.gearbox svg{width:100%;height:100%}
+.g1{transform-origin:200px 200px;animation:spin 40s linear infinite}
+.g2{transform-origin:200px 200px;animation:spin 26s linear infinite reverse}
+
+.proj{background:#fbfaf3;border:1px solid #dcd8c4;padding:1.6rem;margin-bottom:1.5rem;display:grid;gap:1.25rem;border-radius:4px}
+.tag{display:inline-block;background:rgba(242,193,78,.25);color:#7a5a00;font-size:.8rem;padding:.2rem .7rem;border-radius:99px;font-weight:500;margin-bottom:.8rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin:.4rem 0 1rem}
+.chip{font-size:.8rem;background:var(--cream);border:1px solid #d6d2bc;padding:.2rem .65rem;border-radius:99px;color:var(--green)}
+.cols{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
+.cols h4{font-size:1rem;font-weight:800;font-stretch:80%;color:var(--green);text-transform:uppercase;margin-bottom:.4rem;letter-spacing:.03em}
+ul{padding-left:1.1rem;margin:.3rem 0 0}li{margin-bottom:.4rem;max-width:66ch}li::marker{color:var(--coral)}
+.cols ul{margin:0}
+
+.job{display:grid;gap:.6rem 2rem;padding:1.6rem 0;border-top:1px solid #14402d}
+@media(min-width:760px){.job{grid-template-columns:14rem 1fr}}
+.when{color:var(--coral);font-size:.9rem;margin-top:.4rem}
+
+.skills{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.sk{background:#fbfaf3;border:1px solid #dcd8c4;padding:1.3rem;border-radius:4px;border-top:4px solid var(--green)}
+.sk h3{font-size:1.2rem;margin-bottom:.5rem}
+.sk p{margin:0;color:var(--muted);font-size:.95rem}
+.sub{margin-top:3.5rem}
+
+.contact h2{font-size:clamp(2.6rem,10vw,6rem)}
+.links{display:grid;gap:.6rem;margin-top:2rem}
+.links a{font-family:var(--head);font-size:clamp(1.15rem,4.4vw,1.8rem);font-weight:700;font-stretch:85%;text-decoration:none;overflow-wrap:anywhere;border-bottom:1px solid #14402d;padding-bottom:.7rem;transition:.2s}
+.links a:hover{color:var(--coral);border-color:var(--coral)}
+.small{color:#8fae9a;font-size:.9rem;margin-top:2rem}
+</style>
+</head>
+<body>
+<nav aria-label="Main"><div class="wrap">
+<a class="brand" href="#top"><i>AK</i>Adithyan KS</a>
+<a class="l" href="#about">About</a><a class="l" href="#machines">Machines</a><a class="l" href="#experience">Experience</a><a class="l" href="#skills">Skills</a><a class="l" href="#contact">Contact</a>
+<a class="cv" href="cv.pdf" download>Download CV</a>
+</div></nav>
+
+<header class="hero dark" id="top"><div class="wrap">
+<div class="stage">
+<div class="photo"><svg viewBox="0 0 400 400" aria-hidden="true"><g class="g1"><path id="gA" fill="none" stroke="#9be8c4" stroke-opacity=".7" stroke-width="2"/></g><g class="g2"><path id="gB" fill="none" stroke="#f2c14e" stroke-width="2"/></g></svg><img src="photo.jpg" alt="Adithyan KS" onerror="this.remove()"></div>
+<h1 class="big"><small>I’m a</small>Mechanical<br><span class="o">Engineer</span></h1>
+<div class="badge"><svg viewBox="0 0 100 100" aria-hidden="true"><path id="cp" d="M50 50m-36 0a36 36 0 1 1 72 0a36 36 0 1 1-72 0" fill="none"/><text><textPath href="#cp">SCROLL DOWN · SCROLL DOWN ·</textPath></text></svg><b></b></div>
+</div>
+<div class="intro" style="margin-top:4rem">
+<p>I design and build industrial machines, from SPM and automation systems in India to chiller production in the UAE. Design, automation, manufacturing.</p>
+<div class="cta"><a class="btn p" href="#machines">See my machines</a><a class="btn" href="#contact">Get in touch</a></div>
+</div>
+</div></header>
+
+<section class="dark about" id="about"><div class="wrap"><div class="grid">
+<div>
+<div class="hello">Hello</div>
+<h2 style="margin-bottom:1rem">I’m <span>Adithyan</span></h2>
+<p>I have worked on 5+ automation projects covering mechanisms, fixtures, pneumatics and PLC-controlled systems, and I follow each one from the first model to the shop floor.</p>
+<p>Today I am the manufacturing engineer at a chiller manufacturer in Sharjah. I plan production, assign work, coordinate procurement and handle technical support and service requests.</p>
+<ul class="stats">
+<li><i></i><b>5+</b><span>Industrial machines designed and supported</span></li>
+<li><i></i><b>15–20%</b><span>Production efficiency gain</span></li>
+<li><i></i><b>100%</b><span>On-time project delivery</span></li>
+<li><i></i><b>20%</b><span>Faster part delivery through CAM</span></li>
+</ul></div>
+<div class="gearbox"><svg viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="190" fill="none" stroke="#14402d"/><g class="g1"><path id="gC" fill="rgba(25,195,125,.22)" stroke="#9be8c4" stroke-width="2"/></g><g class="g2"><path id="gD" fill="rgba(242,193,78,.18)" stroke="#f2c14e" stroke-width="2"/></g></svg></div>
+</div></div></section>
+
+<section class="light" id="machines"><div class="wrap">
+<h2>Featured <span>machines</span></h2>
+
+<article class="proj"><div><div class="tag">SPM design</div><h3>Semi-automatic wire connector assembly machine</h3>
+<div class="chips"><span class="chip">13 s cycle time</span><span class="chip">OMRON PLC</span><span class="chip">HMI monitoring</span><span class="chip">3-stage operation</span></div>
+<p>A special purpose machine that assembles and tests wire connectors made of several child parts: 5 PEEK types, 5 sleeve types and 44 body types. It finds defective parts and rejects them automatically.</p></div>
+<div class="cols">
+<div><h4>Problem</h4><ul><li>Inconsistent assembly quality</li><li>High cycle time variation</li><li>Many part variants to handle</li></ul></div>
+<div><h4>What it does</h4><ul><li>Automates insertion, clinching and testing in sequence</li><li>Handles every part combination</li><li>Holds a steady 13 s cycle</li></ul></div>
+<div><h4>My role</h4><ul><li>End-to-end mechanical design</li><li>Fixture, indexing and transfer systems</li><li>Support for pneumatic and PLC integration</li></ul></div>
+</div></article>
+
+<article class="proj"><div><div class="tag">Automation testing</div><h3>Semi-automatic electrical testing machine</h3>
+<div class="chips"><span class="chip">20 s cycle time</span><span class="chip">OMRON PLC</span><span class="chip">HMI monitoring</span><span class="chip">Robot-assisted vision</span></div>
+<p>An end-of-line (EOL) tester for electrical connectors. It runs Hi-Pot testing, continuity testing, air leak testing and robot-assisted vision inspection in one machine.</p></div>
+<div class="cols">
+<div><h4>Problem</h4><ul><li>No integrated multi-parameter testing</li><li>Poor traceability and reliability</li><li>Inconsistent quality checks</li></ul></div>
+<div><h4>What it does</h4><ul><li>Combines electrical, pneumatic and vision tests</li><li>Holds a stable 20 s cycle</li><li>Gives repeatable inspection</li></ul></div>
+<div><h4>My role</h4><ul><li>End-to-end mechanical design</li><li>Machine layout and station design</li><li>Integration support for testing and automation</li></ul></div>
+</div></article>
+
+<article class="proj"><div><div class="tag">Reverse engineering</div><h3>Signal terminal Hi-Pot and continuity testing machine</h3>
+<div class="chips"><span class="chip">OMRON PLC</span><span class="chip">HMI monitoring</span><span class="chip">Operator loading</span><span class="chip">Fits multi-station lines</span></div>
+<p>A Hi-Pot and continuity tester built to sit inside a multi-station assembly line, with the operator loading parts by hand.</p></div>
+<div class="cols">
+<div><h4>Problem</h4><ul><li>No drawings or design data</li><li>Only images as reference</li><li>Function had to stay accurate and reliable</li></ul></div>
+<div><h4>What it does</h4><ul><li>Recreates the layout and working principle</li><li>Actuates probes and holds parts in fixtures</li><li>Matches the original function and is easier to manufacture</li></ul></div>
+<div><h4>My role</h4><ul><li>Reverse engineered the full mechanical system from images</li><li>Designed the probe mechanism and fixtures</li><li>Developed the machine layout and integration</li></ul></div>
+</div></article>
+
+<div class="sub"><h2>CNC &amp; <span>CAM</span></h2>
+<div class="proj"><ul style="margin:0">
+<li>Developed machining processes for precision automation components.</li>
+<li>Wrote milling toolpaths in Autodesk Inventor CAM and Mastercam.</li>
+<li>Machined several components in a single setup for better efficiency and consistency.</li>
+<li>Chose cutting parameters from material, geometry and tolerance.</li>
+<li>Checked fixture alignment, process stability and the first part before release to production.</li>
+</ul></div></div>
+</div></section>
+
+<section class="dark" id="experience"><div class="wrap">
+<h2>My <span>experience</span></h2>
+<div class="job"><div><h3>Manufacturing Engineer</h3><div class="when">Emirates Jo Trade Co LLC, Sharjah<br>Oct 2025 – present</div></div>
+<ul>
+<li>Supervise manufacturing and assembly of industrial water chillers: structural frames, piping, and integration of compressors, heat exchangers and control systems.</li>
+<li>Raised production efficiency by 15–20% by removing bottlenecks in fabrication, piping and assembly.</li>
+<li>Cut material waste by about 8–12% and improved overall equipment effectiveness (OEE) through better planning.</li>
+<li>Coordinate production planning, level loading and resource allocation, with 100% on-time project delivery.</li>
+<li>Reduced unplanned downtime by 10–15% by fixing machine reliability and process issues.</li>
+<li>Maintain SOPs, process sheets and quality reports. Give manufacturing input to cost estimates and quotations.</li>
+</ul></div>
+<div class="job"><div><h3>Design Engineer</h3><div class="when">Tech Synergy Technology Pvt. Ltd<br>Jul 2024 – Sep 2025</div></div>
+<ul>
+<li>Core team member on the mechanical design of the TEN 60 Plug Assembly Line, including BOM and layout planning.</li>
+<li>Modelled and optimised the Pre-Insulated Diamond Grip Machine, a system with 53+ mechanical components.</li>
+<li>Developed sub-assemblies for the ABB Connector Testing and Riveting Machine and supported test plan validation.</li>
+<li>Supported 5+ automation projects for clients including Molex, TE Connectivity and Renata.</li>
+<li>Built 2D/3D assemblies in Autodesk Inventor and AutoCAD with revision-controlled documentation.</li>
+<li>Wrote CAM programs and ran CNC setups, improving part delivery time by 20%.</li>
+<li>Took part in machine trials: debugging, tolerance analysis and motion validation. Also worked on a stitching head assembly.</li>
+<li>Cross-trained in basic PLC programming, electrical wiring and pneumatic circuits.</li>
+</ul></div></div></section>
+
+<section class="light" id="skills"><div class="wrap">
+<h2>Skills &amp; <span>education</span></h2>
+<div class="skills">
+<div class="sk"><h3>Design</h3><p>SolidWorks, Autodesk Inventor, AutoCAD, Siemens NX, SPM design, fixtures and mechanisms, design for manufacturing (DFM)</p></div>
+<div class="sk"><h3>Manufacturing</h3><p>Production planning, shop-floor engineering, procurement coordination, CNC programming, Inventor CAM, Mastercam</p></div>
+<div class="sk"><h3>Analysis and automation</h3><p>ANSYS structural and thermal. Basic C, VB.NET and PLC logic. BOMs, operation manuals and maintenance guides</p></div>
+<div class="sk"><h3>Education</h3><p>B.Tech Mechanical Engineering, Toc H Institute of Science and Technology, KTU, 2020–2024</p></div>
+<div class="sk"><h3>Certifications</h3><p>Fundamentals of Manufacturing Processes (NPTEL). GD&amp;T certified. Six Sigma Green Belt in progress (Udemy)</p></div>
+<div class="sk"><h3>Languages</h3><p>English, Hindi, Malayalam, Tamil</p></div>
+</div>
+<div class="sub"><h2>Other <span>projects</span></h2>
+<article class="proj"><div><div class="tag">B.Tech major project</div><h3>Polymer matrix composite</h3>
+<div class="chips"><span class="chip">Team of 4</span><span class="chip">10 months</span></div></div>
+<ul style="margin:0"><li>Studied how mechanical properties change in ceramic-based polymer composites at different weight ratios.</li><li>Analysed how process parameters affect the strength of FDM 3D-printed parts.</li><li>Researched whether ceramic composites are viable and biocompatible for biomedical use.</li></ul></article>
+<article class="proj"><div><div class="tag">Personal project</div><h3>Knee ligament tear rehabilitation device</h3>
+<div class="chips"><span class="chip">Team of 2</span><span class="chip">Ongoing</span><span class="chip">With a clinical nurse</span></div></div>
+<ul style="margin:0"><li>Designing a rehabilitation device built around controlled motion, safety and manufacturability.</li><li>Applying mechanical design principles to simulate real medical device constraints.</li><li>Exploring material selection and joint actuation mechanisms.</li></ul></article>
+</div></div></section>
+
+<footer class="dark contact" id="contact" style="padding:4.5rem 0 5rem"><div class="wrap">
+<h2>Let’s <span>talk</span></h2>
+<p>Open to mechanical design, automation and manufacturing engineering roles in the UAE.</p>
+<div class="links">
+<a href="mailto:adithyanksivaprasad@gmail.com">adithyanksivaprasad@gmail.com</a>
+<a href="tel:+971505920028">+971 50 5920028</a>
+<a href="https://www.linkedin.com/in/adithyan-ks-8437a5228" target="_blank" rel="noopener">LinkedIn profile</a>
+<a href="cv.pdf" download>Download CV</a>
+</div>
+<p class="small">Based in the UAE.</p>
+</div></footer>
+
+<script>
+function gear(n,ro,ri){var d="",s=Math.PI*2/n,c=200;for(var i=0;i<n;i++){var a=i*s;[[ri,a],[ro,a+s*.18],[ro,a+s*.45],[ri,a+s*.63]].forEach(function(q,k){d+=(i===0&&k===0?"M":"L")+(c+q[0]*Math.cos(q[1])).toFixed(1)+" "+(c+q[0]*Math.sin(q[1])).toFixed(1)+" "})}return d+"Z"}
+[["gA",18,150,134],["gB",10,92,80],["gC",24,152,134],["gD",12,92,78]].forEach(function(g){document.getElementById(g[0]).setAttribute("d",gear(g[1],g[2],g[3]))});
+</script>
+</body>
+</html>
